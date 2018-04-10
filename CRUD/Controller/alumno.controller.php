@@ -20,6 +20,7 @@ class AlumnoController{
         
         if(isset($_REQUEST['id'])){
             $alm = $this->model->Obtener($_REQUEST['id']);
+            $prueba;
         }
         
         require_once 'view/header.php';
